@@ -11,6 +11,7 @@ El operador **:** se utiliza para crear intersecuencia, por ejemplo
 ```  
      x <- 1:6
       print (x)
+      [1] 1 2 3 4 5 6
 ````
 ## Tipos de vectores
 ````
