@@ -8,13 +8,15 @@ Hay cinco tipos de objetos en R:
   * complex()
   * logical(TRUE, FALSE)
 El operador **:** se utiliza para crear intersecuencia, por ejemplo
-x <- 1:6
-print (x)
-
+```  
+     x <- 1:6
+      print (x)
+````
 ## Tipos de vectores
-x <- c(TRUE, FALSE) ## logical
-x <- c(0.5,0.6) ## numerical
-x <- c("a", "b", "c") ## character
-x <- 9:29 ## integer
-x <- (1+0i, 4+2i) ## complex
-
+````
+    logical = x <- c(TRUE, FALSE)
+    numerical = x <- c(0.5,0.6)
+    character = x <- c("a", "b", "c")
+    integer = x <- 9:29
+    complex = x <- (1+0i, 4+2i)
+```
