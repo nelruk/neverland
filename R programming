@@ -9,7 +9,7 @@ Hay cinco tipos de objetos en R:
   * logical(TRUE, FALSE)
 El operador **:** se utiliza para crear intersecuencia, por ejemplo
 x <- 1:6
-
+print (x)
 
 ## Tipos de vectores
 x <- c(TRUE, FALSE) ## logical
