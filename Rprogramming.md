@@ -88,4 +88,25 @@ Si queremos también podemos cambiar el nombre a las columnas o filas:
  foo  bar norf 
    1    2    3 
  ```
- 
+ El `[` se utiliza para retornar un un objeto en la misma class que el original.
+ El `[[` es usado para extraer elementos de una lista.
+ El signo `$` usado para extraer elementos de la lista de los datos POR nombre.
+ Ejemplo:
+ ```
+          > x <- c("a","b","c","c","d","a")
+          > x[1]
+            [1] "a"
+          > x[2]
+            [1] "b"
+          > x[1:4]
+            [1] "a" "b" "c" "c"
+          > x[x > "a"]
+            [1] "b" "c" "c" "d"
+          > u <- x > "a"
+          > u
+            [1] FALSE  TRUE  TRUE  TRUE  TRUE FALSE
+          > x[u]
+            [1] "b" "c" "c" "d"
+```
+
+
