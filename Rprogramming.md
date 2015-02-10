@@ -108,5 +108,43 @@ Si queremos también podemos cambiar el nombre a las columnas o filas:
           > x[u]
             [1] "b" "c" "c" "d"
 ```
+## Control Structures in R
+Common structures are:
+* ``if, else``: testing a condition
+Una observacion: podemos formular una estructura sin el ``else``, no habrá ningun problema.
+* ``for``: execute a loop, toma una variable y le da un valor.
+i es una variable.
+``seq_along`` toma un vector como un elemento de entrada y me crea una secuencia de integer.
+Se usa así: ````
+        > x <- c("a","b","c","d")
+        > for(i in 1:4){
+        + print(x[i]) }
+        [1] "a"
+        [1] "b"
+        [1] "c"
+        [1] "d"
+        > for(i in seq_along(x)){
+        + print(x[i]) }
+        [1] "a"
+        [1] "b"
+        [1] "c"
+        [1] "d"
+        > for(letter in x) {
+        + print(letter) }
+        [1] "a"
+        [1] "b"
+        [1] "c"
+        [1] "d"
+        > for(i in 1:4) print (x[i])
+        [1] "a"
+        [1] "b"
+        [1] "c"
+        [1] "d"
+````
+* ``while``:execute a loop while a condition is true
 
+* ``break``: break the execution of a loop
+* ``repeat``: execute an infinite loop
+* ``next``: skip an interaction of a loop
+* ``return``: exit a function
 
