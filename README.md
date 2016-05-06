@@ -1,2 +1,2 @@
 # neverland
-This is a basic (so basic) place where I put all the things I learned in my classes. I'm a n00b, so if you want to help, you are very welcome.
+Basically, I just started to learn about webmaster (first front-end and then back-end) and before that I tried to do some programming. All you can see here is the effort of that.
